@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "Connect with multiple carriers (FedEx, UPS, USPS and others) via a single API with Shippo"
   s.description = "A gem for connecting with over 20 shipping carriers and consolidators via a single integration using Shippo API. Support for shipping rates, buying and printing labels, tracking as well as some carrier specific functionality such as signature required, adult signature confirmation, certified mail, delivery confirmation and many others."
   s.add_dependency('rest-client', '~> 2.1')
-  s.add_dependency('mime-types', '>= 1.25', '< 3.0')
+  s.add_dependency('mime-types', '>= 1.25', '< 4.0')
   s.add_dependency('json', '~> 1.8.1')
   s.authors     = ["Shippo & Contributors"]
   s.email       = 'support@goshippo.com'
